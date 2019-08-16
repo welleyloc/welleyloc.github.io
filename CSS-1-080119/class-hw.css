@@ -1,0 +1,187 @@
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0px;
+    font-size: 2vw;
+}
+
+a  {
+    margin: 0;
+    color: white;
+    display: block;
+    float: left;
+    padding: 18px 16px;
+}
+
+div:hover {
+    animation-play-state: paused;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    background-color: slategrey;
+}
+
+a:hover {
+    color: rgb(142, 214, 207);
+    background-color: black;
+}
+
+a:active {
+    color: white;
+}
+
+.navbar {
+    position: relative;
+    height: 60px;
+    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-logo {
+    display: flex;
+    width: 150px;
+    background-color: coral;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+.navbar-content {
+    display: flex;
+    background-color: slategray;
+}
+
+.navbar-search input {
+    color: coral;
+    font-size: 15px;
+    display: block;
+    float: left;
+    background-color: white;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 20vw;
+    border: 0;
+    padding: 5px;
+}
+
+img {
+    border: 0;
+    margin-top: 10px;
+    background-color: slategray;
+}
+
+.navbar-cart {
+    display: block;
+    width: 100%;
+    background-color: slategray;
+    padding: 10px;
+    text-align: right;
+    font-size: 13px;
+
+}
+
+p.top-left {
+    display: table-cell;
+    padding-top: 85px;
+    padding-left: 50px;
+}
+
+p.top-right {
+    display: table-cell;
+    padding-top: 85px;
+    padding-left: 40px;
+}
+
+p.bottom-left {
+    display: table-cell;
+    padding-top: 70px;
+    padding-left: 80px;
+}
+
+p.bottom-right {
+    display: table-cell;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+.wrapper {
+    margin: 80px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    justify-content: center;
+}
+
+.top {
+    background-color: white;
+}
+
+.bottom {
+    background-color: white;
+}
+
+@keyframes jiggle {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-2deg); }
+    20% { transform: translate(-3px, 0px) rotate(2deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(2deg); }
+    50% { transform: translate(-1px, 2px) rotate(-2deg); }
+    60% { transform: translate(-4px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-2deg); }
+    80% { transform: translate(-1px, -1px) rotate(2deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-2deg); }
+  }
+
+.pie-left {
+    margin: 0px;
+    width: 15vw;
+    height: 15vw;
+    border-top-left-radius: 95%;
+    border: white 0.5vw solid;
+    float: left;
+    animation: jiggle 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.pie-right {
+    margin: 0px;
+    width: 15vw;
+    height: 15vw;
+    border-top-right-radius: 95%;
+    border: white 0.5vw solid;
+    float: left;
+    animation: jiggle 3s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+.pie-bottom-left {
+    margin: 0px;
+    width: 15vw;
+    height: 15vw;
+    border-bottom-left-radius: 95%;
+    border: white 0.5vw solid;
+    float: left;
+    animation: jiggle 4s;
+    animation-iteration-count: infinite;
+}
+
+.pie-bottom-right {
+    margin: 0px;
+    width: 15vw;
+    height: 15vw;
+    border-bottom-right-radius: 95%;
+    border: white 0.5vw solid;
+    float: left;
+    animation: jiggle 2s;
+    animation-iteration-count: infinite;
+}

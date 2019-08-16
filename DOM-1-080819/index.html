@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+    <style>
+        .bigwrapper {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            border: 0px;
+        }
+
+        .topwrapper {
+            border: 1px;
+            width: 500px;
+            margin: 5px;
+        }
+
+        .table {
+            background-color: rgb(125, 119, 179);
+            scroll-behavior: auto;
+            color: white;
+            width: 410px;
+            height: 350px;
+            margin: 10px;
+            padding: 5px;
+            overflow: auto;
+            border: 1px black dashed;
+        }
+
+        .inputbox {
+            width: 300px;
+            border: 1px black dashed;
+            margin: 10px;
+            padding: 5px;
+            float: left;
+        }
+
+        .addbutton {
+            background-color: coral;
+            color: white;
+            margin: 10px;
+            text-align: center;
+            padding: 5px;
+            width: 80px;
+            float: left;
+        }
+    </style>
+
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div class="bigwrapper">
+        <div class="topwrapper">
+            <h1>To-Do List</h1>
+            <p style="color: lightcoral">Press enter or button to add. Click item to remove.</p>
+            <input class="inputbox" type="text" id="inputid" placeholder="item">
+            <button class="addbutton">Add</button>
+        </div>
+        <div class="table">
+            <div class="list">
+                <ul class="ulist" id="ulistid">
+                </ul>
+            </div>
+        </div>
+        <p id="arraysize"></p>
+        <span id="demo"></span>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="todo.js"></script>
+</body>
+
+</html>
