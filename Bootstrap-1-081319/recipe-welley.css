@@ -1,0 +1,36 @@
+@media screen and (max-width: 500px) { /* resizes the text if the screen is 600px or smaller */
+    h1 {
+        font-size: 30px;
+    }
+}
+
+.bg-light {
+    background-color: #ffd044!important; /* must include !important to overide the bootstrap style, if it contains important under inspect element */
+}
+
+.content.container { /* overrides the bootstrap container class specifically with your new class*/
+    width: 95%;
+    background-color: white;
+    padding: 20px;
+}
+
+.difficulty.progress-bar {
+    background-color: rgb(255, 205, 140);
+    padding: 5px;
+    color: darkslategrey;
+    text-align: left;
+}
+
+.energy.progress-bar {
+    background-color: rgb(202, 219, 255);
+    padding: 5px;
+    color: darkslategrey;
+    text-align: left;
+}
+
+.calories.progress-bar {
+    background-color: rgb(172, 235, 182);
+    padding: 5px;
+    color: darkslategrey;
+    text-align: left;
+}
