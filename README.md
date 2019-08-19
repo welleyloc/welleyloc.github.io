@@ -2,7 +2,7 @@
 
 #### Personal
 
-1. **DOM-1**, [Demo](https://welleyloc.github.io/DOM-1-080819/index.html), goal was to make an interactive to-list using material from JQuery to DOM lectures. The list is preserved when page refreshes.
+1. **To-do list (DOM-1)**, [Demo](https://welleyloc.github.io/DOM-1-080819/index.html), goal was to make an interactive to-do list using material from JQuery to DOM lectures. Additional functionalities have been added beyond the original lab assignment.
 
 #### Homework
 
