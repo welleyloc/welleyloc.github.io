@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.datatables.net/v/bs4-4.1.1/jq-3.3.1/dt-1.10.18/sl-1.2.6/datatables.min.css" />
+  <script type="text/javascript"
+    src="https://cdn.datatables.net/v/bs4-4.1.1/jq-3.3.1/dt-1.10.18/sl-1.2.6/datatables.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
+  <title>Datatables Homework</title>
+  <style>
+    .dt-body-center {
+      text-align: center
+    }
+
+    /* table.dataTable thead th,
+    table.dataTable tfoot th {
+      text-align: left;
+    } */
+
+    .la {
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="datatables-charts-welley.js"></script>
+
+  <h3>Table 1: person_table</h3>
+  <br>
+  <table id="person_table" class="table table-striped table-bordered" width="100%">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Cell Phone</th>
+        <th>Zip Code</th>
+        <th>State</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>111</td>
+        <td>Brian</td>
+        <td>Smith</td>
+        <td>980-996-9650</td>
+        <td>28025</td>
+        <td>NC</td>
+      </tr>
+      <tr>
+        <td>123</td>
+        <td>John</td>
+        <td>Doe</td>
+        <td>720-859-6284</td>
+        <td>50566</td>
+        <td>CO</td>
+      </tr>
+      <tr>
+        <td>321</td>
+        <td>Cindy</td>
+        <td>Williamson</td>
+        <td>214-933-3218</td>
+        <td>41482</td>
+        <td>TX</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br><br>
+
+  <h3>Table 2: base_table</h3>
+  <br>
+  <table id="base_table" class="table table-striped table-bordered" width="100%">
+    <thead>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <br><br>
+
+  <h3>Bar Chart 1</h3>
+
+  <canvas id="barChart"></canvas>
+  <script>
+    var ctx = document.getElementById("barChart").getContext("2d");
+    var chart = new Chart(ctx,
+      {
+        type: "bar",
+        data: {
+          labels: ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large"],
+          datasets: [{
+            label: "Planning Poker Sizes",
+            backgroundColor: "rgb(255, 55, 128)",
+            borderColor: "rgb(255, 55, 128)",
+            data: [1, 2, 3, 5, 8, 13]
+          }]
+        },
+        options: {}
+      });
+  </script>
+
+  <br><br>
+
+  <h3>Line Chart 1</h3>
+
+  <canvas id="lineChart"></canvas>
+  <script>
+    var ctx = document.getElementById("lineChart").getContext("2d");
+    var chart = new Chart(ctx,
+      {
+        type: "line",
+        data: {
+          labels: ["XX-Small", "X-Small", "Small", "Medium", "Large", "X-Large"],
+          datasets: [{
+            label: "Planning Poker Sizes",
+            backgroundColor: "transparent",
+            borderColor: "rgb(0, 0, 255)",
+            data: [1, 2, 3, 5, 8, 13]
+          }]
+        },
+        options: {}
+      });
+  </script>
+</body>
+
+</html>

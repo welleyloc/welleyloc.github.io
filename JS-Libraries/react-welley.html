@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>React Homework</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+
+<body>
+    <h2>Task: Use JQuery with React to change name</h2>
+    <input id="input" placeholder="Type name here" style="font-size: 15px"></input>
+    <br><br>
+    <div id="root"></div>
+    
+    <script type="text/babel">
+        class HelloMessage extends React.Component {
+            constructor(props){
+                super(props);
+                this.handleClick = this.handleClick.bind(this);
+                this.state = {name: props.name};
+            }
+
+            handleClick(e) {
+                this.setState({name: 
+                $("#input").val()
+                });
+            }
+
+            render() {
+                return (
+                    <div>
+                        <div>
+                             Hello {this.state.name}
+                        </div>
+                        <div>
+                            <button onClick = {this.handleClick}>
+                            Change Name
+                            </button>
+                        </div>
+                    </div>    
+                );
+            }
+        }
+        var contents =
+        ReactDOM.render(
+            <HelloMessage name="John Taylor" id="hello" />,
+            // document.getElementById("root")
+            $("#root")[0] // JQuery equivalent
+        );    
+    </script>
+</body>
+
+</html>
