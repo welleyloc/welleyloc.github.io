@@ -11,3 +11,5 @@
 2. **Bootstrap-1**, [Demo](https://welleyloc.github.io/Bootstrap-1-081319/index.html), assignment was to introduce different Bootstrap (local) components onto a webpage.  
 
 3. **Typescript-ng**, [Demo](https://welleyloc.github.io/Typescript-ng-081419/index.html), assignment involved the basics of typescript and compiling it to fill an HTML page with employee data.
+
+3. **JS-Libraries**, [Demo](https://welleyloc.github.io/JS-Libraries/), a demonstration of various libraries in the land of Javascript (Lodash, Moment, Math, Datatables, Chart (bar/line), React, and Vue).
