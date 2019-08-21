@@ -1,11 +1,10 @@
-#A live demo collection containing homework assignments and personal projects
+### A live demo collection containing personal projects and homework
 
-### Personal
+#### Personal
 
-1. **DOM-1**, [Demo](https://welleyloc.github.io/DOM-1-080819/index.html), goal was to make an interactive to-list using material from JQuery to DOM lectures. The list is preserved when page refreshes.
+1. **To-do list (DOM-1)**, [Demo](https://welleyloc.github.io/DOM-1-080819/index.html), goal was to make an interactive to-do list using material from JQuery to DOM lectures. Additional functionalities have been added beyond the original lab assignment.
 
-<br>
-### Homework
+#### Homework
 
 1. **CSS-1**, [Demo](https://welleyloc.github.io/CSS-1-080119/index.html), assignment was to replicate a pie chart using only HTML/CSS and the images (search glass and cart) provided.
 
