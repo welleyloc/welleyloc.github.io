@@ -21,3 +21,5 @@
 4. **Typescript-ng**, [Demo](https://welleyloc.github.io/Typescript-ng-081419/index.html), assignment involved the basics of typescript and compiling it to fill an HTML page with employee data.
 
 5. **JS-Libraries**, [Demo](https://welleyloc.github.io/JS-Libraries/), a demonstration of various libraries in the land of Javascript (Lodash, Moment, Math, Datatables, Chart (bar/line), React, and Vue).
+
+6. **Angular**, [Demo](https://welleyloc.github.io/Angular-Intro/index.html), an introduction to the framework with five different components covering observables, forms, animations, and libraries (Material/PrimeNG libraries not included here due to deprecated imports preventing project build with Angular 8.3).
