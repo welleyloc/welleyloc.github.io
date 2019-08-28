@@ -2,7 +2,9 @@
 
 #### Personal Java apps (JavaFX)
 
-1. **Art Supply Inventory**, [Download application(jar)](https://github.com/welleyloc/plain-java-goodies/tree/master/Art%20supply%20inventory/JavaFXApp) / [Screenshot](https://raw.githubusercontent.com/welleyloc/plain-java-goodies/master/Art%20supply%20inventory/JavaFXApp/Screenshot.png) / [Java code](https://github.com/welleyloc/plain-java-goodies/blob/master/Art%20supply%20inventory/ArtSupplyInventory.java), a simple GUI I made to keep track of my paint/pencil inventory because I buy duplicate colors sometimes. Inventory is stored in CSVs and are searchable via the GUI. Currently for desktop, but ideally should be for the phone. To use the app, keep the jar file and csvs in the same folder.
+1. **Art Supply Inventory**, [Download application(jar)](https://github.com/welleyloc/plain-java-goodies/tree/master/Art%20supply%20inventory/JavaFXApp) / [Java code](https://github.com/welleyloc/plain-java-goodies/blob/master/Art%20supply%20inventory/ArtSupplyInventory.java), a simple GUI I made to keep track of my paint/pencil inventory because I buy duplicate colors sometimes. Inventory is stored in CSVs and are searchable via the GUI. Currently for desktop, but ideally should be for the phone. To use the app, keep the jar file and csvs in the same folder.
+
+<img src="https://raw.githubusercontent.com/welleyloc/plain-java-goodies/master/Art%20supply%20inventory/JavaFXApp/Screenshot.png" width="320" height="380">
 
 #### Project leader (Volunteer work)
 
