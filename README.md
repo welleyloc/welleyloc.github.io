@@ -1,4 +1,4 @@
-### Live demos of personal projects and homework
+### Demo list
 
 #### Personal Java apps (JavaFX)
 
@@ -19,5 +19,3 @@
 4. **Typescript-ng**, [Demo](https://welleyloc.github.io/Typescript-ng-081419/index.html), assignment involved the basics of typescript and compiling it to fill an HTML page with employee data.
 
 5. **JS-Libraries**, [Demo](https://welleyloc.github.io/JS-Libraries/), a demonstration of various libraries in the land of Javascript (Lodash, Moment, Math, Datatables, Chart (bar/line), React, and Vue).
-
-6. **To-do list (DOM-1)**, [Demo](https://welleyloc.github.io/DOM-1-080819/index.html), goal was to make an interactive to-do list using material from JQuery to DOM lectures. Additional functionalities have been added beyond the original lab assignment.
