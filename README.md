@@ -6,9 +6,9 @@
 
 <img src="https://raw.githubusercontent.com/welleyloc/plain-java-goodies/master/Art%20supply%20inventory/JavaFXApp/Screenshot.png" width="320" height="380">
 
-#### Project leader (Volunteer work)
+#### Personal Angular apps
 
-* Code for Connecticut - [Project Mill Rate Repo](https://github.com/welleyloc/CT-Mill-Rate-Project-Java) On the early planning stages and data organization. 
+* **Art Portfolio**, [Live](welleyloc.github.io/art-portfolio/), an Angular build of my art website with Typescript/HTML/CSS. WIP and functionalties will be updated occasionally.
 
 #### Homework
 
@@ -22,4 +22,4 @@
 
 5. **JS-Libraries**, [Demo](https://welleyloc.github.io/JS-Libraries/), a demonstration of various libraries in the land of Javascript (Lodash, Moment, Math, Datatables, Chart (bar/line), React, and Vue).
 
-6. **Angular**, [Demo](https://welleyloc.github.io/Angular-Intro/index.html), an introduction to the framework with five different components covering observables, forms, animations, and libraries (Material/PrimeNG libraries not included here due to deprecated imports preventing project build with Angular 8.3).
+6. **Angular**, [Demo](https://welleyloc.github.io/angular-intro/), an introduction to the framework with five different components covering observables, forms, animations, and libraries (Material/PrimeNG libraries not included here due to deprecated imports preventing project build with Angular 8.3).
