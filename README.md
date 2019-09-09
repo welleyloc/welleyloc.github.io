@@ -6,7 +6,7 @@
 
 ### Angular apps
 
-* **Art Portfolio**, [Live](welleyloc.github.io/art-portfolio/), an Angular build of my art website with Typescript/HTML/CSS. WIP and functionalties will be updated occasionally.
+* **Art Portfolio**, [Live](https://welleyloc.github.io/art-portfolio/), an Angular build of my art website with Typescript/HTML/CSS. WIP and functionalties will be updated occasionally.
 
 * <img src="https://github.com/welleyloc/art-portfolio/blob/master/screenshot.png?raw=true" width="500">
 
