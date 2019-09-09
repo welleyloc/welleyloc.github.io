@@ -1,16 +1,22 @@
-### Demo list
+### Spring apps
 
-#### Personal Java apps (JavaFX)
+* Dice Game, [Repo](https://github.com/welleyloc/dice), a simple game of one-player Craps built with Spring Initializer with Maven and Thymeleaf.
 
-1. **Art Supply Inventory**, [Download application(jar)](https://github.com/welleyloc/plain-java-goodies/tree/master/Art%20supply%20inventory/JavaFXApp) / [Java code](https://github.com/welleyloc/plain-java-goodies/blob/master/Art%20supply%20inventory/ArtSupplyInventory.java), a simple GUI I made to keep track of my paint/pencil inventory because I buy duplicate colors sometimes. Inventory is stored in CSVs and are searchable via the GUI. Currently for desktop, but ideally should be for the phone. To use the app, keep the jar file and csvs in the same folder.
+* <img src="https://github.com/welleyloc/dice/blob/master/application%20snippet.png?raw=true" width="500">
 
-<img src="https://raw.githubusercontent.com/welleyloc/plain-java-goodies/master/Art%20supply%20inventory/JavaFXApp/Screenshot.png" width="320" height="380">
-
-#### Personal Angular apps
+### Angular apps
 
 * **Art Portfolio**, [Live](welleyloc.github.io/art-portfolio/), an Angular build of my art website with Typescript/HTML/CSS. WIP and functionalties will be updated occasionally.
 
-#### Homework
+* <img src="https://github.com/welleyloc/art-portfolio/blob/master/screenshot.png?raw=true" width="500">
+
+### Java apps (JavaFX)
+
+1. **Art Supply Inventory**, [Download application(jar)](https://github.com/welleyloc/plain-java-goodies/tree/master/Art%20supply%20inventory/JavaFXApp) / [Java code](https://github.com/welleyloc/plain-java-goodies/blob/master/Art%20supply%20inventory/ArtSupplyInventory.java), a simple GUI I made to keep track of my paint/pencil inventory because I buy duplicate colors sometimes. Inventory is stored in CSVs and are searchable via the GUI. Currently for desktop, but ideally should be for the phone. To use the app, keep the jar file and csvs in the same folder.
+
+* <img src="https://raw.githubusercontent.com/welleyloc/plain-java-goodies/master/Art%20supply%20inventory/JavaFXApp/Screenshot.png" width="320" height="380">
+
+### Homework
 
 1. **To-do list (DOM-1)**, [Demo](https://welleyloc.github.io/DOM-1-080819/index.html), goal was to make an interactive to-do list using material from JQuery to DOM lectures. Additional functionalities have been added beyond the original lab assignment (enter keycode, local storage).
 
