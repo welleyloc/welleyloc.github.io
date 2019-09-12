@@ -1,6 +1,6 @@
 ### Spring apps
 
-* Dice Game, [Repo](https://github.com/welleyloc/dice), a simple game of one-player Craps built with Spring Initializer with Maven and Thymeleaf.
+* Dice Game, [Live](https://glacial-forest-29319.herokuapp.com/game), [Repo](https://github.com/welleyloc/dice), a simple game of one-player Craps built with Spring Initializer with Maven and Thymeleaf. Hosted on Heroku.
 
 * <img src="https://github.com/welleyloc/dice/blob/master/application%20snippet.png?raw=true" width="500">
 
